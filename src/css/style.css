@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+main {
+    background-color:  hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0,  0 , 0, 0.3);
+    max-width: 300px;
+    text-align: center;
+}
+
+.equilibrium {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.informacoes {
+    text-align: left;
+    margin-top: 15-x;
+}
+
+.informacoes h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.informacoes p {
+    color: hsl(215, 51%, 70%);
+    font-size: rem;
+    line-height: 1.6;
+}
+
+.informacoes-adicionais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.price {
+   color: hsl(178, 100%, 50%);
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+}
+
+.price, .time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price span, .time span {
+    font-size: 1rem;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid  hsl(215, 32%, 27%);
+    padding-top: 10px;
+    margin: 20px;
+}
+
+.creator img {
+    width: 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.creator p {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.creator span {
+    color: hsl(215, 51%, 70%);
+}
